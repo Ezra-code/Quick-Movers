@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: poppins, Actor, Adamina;
+    font-family: "poppin", sans-serif;
 }
 .header{
     background: url("../images/moving\ 1.png") no-repeat center;
@@ -10,7 +10,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 1000px;
-    font-family: sans-serif;
     background-attachment: scroll;
 }
 nav{
@@ -32,6 +31,7 @@ nav li button{
 }
 #login{
     background-color: #FAFF00;
+    color:  black;
 }
 #login:hover{
     background-color: black;
@@ -50,7 +50,7 @@ nav li button{
     display: flex;
     flex-direction: column;
     margin: 30px;
-    width: 700px;
+    width: 800px;
 }
 h3{
     color: #FAFF00;
@@ -59,4 +59,39 @@ h3{
 h6{
     font-size: 35px;
     color: silver;
+}
+.hustle{
+    display: flex;
+    font-size: 35px;
+    margin: 40px 0;
+}
+.hustle img{
+    width: 600px;
+}
+.right{
+    width: 600px;
+    margin: 50px;
+    padding: 30px;
+}
+h2{
+    font-weight: bold;
+    text-decoration: overline;
+    text-decoration-thickness: 6px;
+}
+p{
+    font-weight: 200;
+}
+button{
+    color: #FAFF00;
+    background-color: black;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 0 20px 0 0;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    border: 4px solid #FAFF00;
+    color: #000;
 }
