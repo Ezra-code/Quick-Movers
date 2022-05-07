@@ -41,6 +41,6 @@ As a user of the application,you will be able to :
 * The website is not responsive can only be used on a desktop
 ## Licence
 This project is licensed under the terms of the MIT license
-[Go Back to the top](#Quck-Movers)
+[Go Back to the top](#Quick-Movers)
 ## Authors Info
 Ezra Njeru Kithinji
