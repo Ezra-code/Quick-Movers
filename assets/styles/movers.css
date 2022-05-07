@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -38,6 +38,7 @@ nav li button{
     background-color: black;
     color: #FFAC12;
 }
+ /*
 .text{
     clear: right;
     display: flex;
