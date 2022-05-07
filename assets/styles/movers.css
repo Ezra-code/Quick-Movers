@@ -1,0 +1,261 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "poppin", sans-serif;
+    background-color: rgba(192,192,192, 0.3);
+}
+.header{
+    background: black;
+    color: white;
+}
+nav{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li button{
+    padding: 10px;
+    border: none;
+    border-radius: 0 19px 0 0;
+    font-size: 19px;
+    cursor: pointer;
+}
+#login{
+    background-color: #FFAC12;
+    color:  black;
+}
+#login:hover{
+    background-color: black;
+    color: #FFAC12;
+}
+.text{
+    clear: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 20px;
+}
+.text h3{
+    font-size: 45px;
+}
+.text h6{
+    font-size: 25px;
+}
+.dtls{
+    text-align: left;
+}
+.price{
+    text-align: right;
+}
+.property{
+    display: flex;
+    margin: 20px;
+    padding: 60px;
+    justify-content: space-around;
+}
+.property img{
+    width: 800px;
+    height: 600px;
+}
+.inputs{
+    padding: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px silver;
+}
+.inputs .title{
+    display: flex;
+    background-color: rgba(192,192,192, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+.inputs .title img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 16px;
+    
+}
+.inputs .title #title{
+    
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.inputs .title #title h3{
+    margin-bottom: 0px;
+}
+.inputs .title #title h6{
+    margin-top: 3px;
+    color: #FFAC12;
+    font-size: 15px;
+    font-weight: bold;
+}
+.inputs form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: 1px solid silver;
+    padding: 20px;
+    margin: 12px;
+    width: 300px;
+    border-radius: 9px;
+}
+button{
+    padding: 20px;
+    margin: 12px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 0 20px 0 0;
+    border: none;
+}
+.images{
+    padding-left: 85px;
+}
+.images img{
+    width: 99px;
+    margin: 10px;
+}
+.Details, .description, .features{
+    width: 840px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px silver;
+    margin: 90px;
+    justify-content: center;
+}
+.Details h4{
+    font-size: 28px;
+    padding-left: 15px;
+}
+
+.Details table{
+    margin: 25px;
+    border-spacing: 99px;
+    font-size: 30px;
+}
+.Details table, th{
+    border: 1px solid silver;
+    border-collapse: collapse;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.Details th{
+    padding: 10px 60px;
+}
+.description, .features h1{
+    border-bottom: 1px solid silver;
+    padding: 20px;
+}
+.description p{
+    text-align: left;
+    padding: 20px;
+}
+#features{
+    display: flex;
+    justify-content: space-around;
+}
+.features ul span{
+    color: #FFAC12;
+    font-weight: bold;
+}
+.features li{
+    list-style: none;
+    padding: 10px;
+}
+.listings h1{
+    padding: 80px;
+    margin: 30px;
+    font-size: 60px;
+    text-decoration: overline;
+    text-decoration-thickness: 8px;
+}
+#listings{
+    display: flex;
+    margin: 0 30px;
+    padding: 60px;
+    justify-content: space-around;
+}
+
+#listings div{
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 5px 5px 5px silver;
+    width: 300px;
+}
+h4{
+    font-size: 28px;
+    padding-left: 15px;
+}
+
+.listings img{
+    width: 300px;
+    height: 300px;
+}
+.malto table{
+    margin: 15px;
+    border-spacing: 30px;
+}
+.malto table, th{
+    border: 1px solid silver;
+    border-collapse: collapse;
+    border-bottom: none;
+}
+th{
+    padding: 20px;
+}
+.malto{
+    margin: 20px;
+}
+
+.final{
+    background-color: #000;
+    color: white;
+}
+.final h1{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 500;
+}
+span{
+    color: #FFAC12;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+    padding: 2px;
+}
+.menu #column{
+    font-weight: bold;
+
+}
+.brands{
+    font-size: 30px;
+    padding: 12px;
+}
+.brands li{
+    margin: 12px;
+    display: inline;
+} */

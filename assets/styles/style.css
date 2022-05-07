@@ -15,6 +15,15 @@ body{
     height: 1000px;
     background-attachment: scroll;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    color: #FAFF00;
+    background-color: #000;
+    cursor: pointer;
+}
 nav{
     float: right;
     color: white;
@@ -99,7 +108,7 @@ button:hover{
     color: #000;
 }
 .Movers{
-    background-color: aliceblue;
+    background-color: rgba(192,192,192, 0.4);
 }
 .Movers h1{
     padding: 80px;
@@ -112,25 +121,71 @@ button:hover{
     display: flex;
     margin: 0 30px;
     padding: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.amovers{
+
+#movers div{
     display: flex;
     flex-direction: column;
 }
 .details{
     background-color: white;
     border-radius: 0 0 12px 12px;
+    box-shadow: 5px 5px 5px silver;
 }
 h4{
     font-size: 28px;
     padding-left: 15px;
 }
 
-.amovers img{
-    width: 250px;
-    height: 250px;
+.Movers img{
+    width: 400px;
 }
-table th{
-    border: 1px solid black;
+table{
+    margin: 15px;
+    border-spacing: 30px;
+}
+table, th{
+    border: 1px solid silver;
     border-collapse: collapse;
+    border-bottom: none;
 }
+th{
+    padding: 20px;
+}
+.amovers, .maridadi, .ufalme, .chapchap, .songa, .upesi{
+    margin: 20px;
+}
+/* .final{
+    background-color: #000;
+    color: white;
+}
+.final h1{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 500;
+}
+span{
+    color: #FFAC12;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    padding: 3px;
+}
+.menu #column{
+    font-weight: bold;
+    
+}
+.brands{
+    font-size: 30px;
+    padding: 12px;
+}
+.brands li{
+    margin: 12px;
+    display: inline;
+} */
