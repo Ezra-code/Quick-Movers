@@ -124,14 +124,14 @@ button{
     border-radius: 0 20px 0 0;
     border: none;
 }
-/*.images{
+.images{
     padding-left: 85px;
 }
 .images img{
     width: 99px;
     margin: 10px;
 }
-.Details, .description, .features{
+/*.Details, .description, .features{
     width: 840px;
     background-color: white;
     border-radius: 12px;
