@@ -33,6 +33,7 @@ nav li button{
 #login{
     background-color: #FFAC12;
     color:  black;
+    padding: 20px;
 }
 #login:hover{
     background-color: black;
@@ -233,10 +234,14 @@ th{
     color: white;
 }
 .final h1{
-    padding: 20px;
-    font-size: 45px;
     font-weight: 500;
 }
+.final-header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
 span{
     color: #FFAC12;
 }
@@ -253,7 +258,7 @@ span{
 
 }
 .brands{
-    font-size: 30px;
+    font-size: 50px;
     padding: 12px;
 }
 .brands li{
