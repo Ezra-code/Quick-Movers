@@ -131,7 +131,7 @@ button{
     width: 99px;
     margin: 10px;
 }
-/*.Details, .description, .features{
+.Details, .description, .features{
     width: 840px;
     background-color: white;
     border-radius: 12px;
@@ -179,7 +179,7 @@ button{
     list-style: none;
     padding: 10px;
 }
-.listings h1{
+/*.listings h1{
     padding: 80px;
     margin: 30px;
     font-size: 60px;
