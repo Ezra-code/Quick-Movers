@@ -38,7 +38,7 @@ nav li button{
     background-color: black;
     color: #FFAC12;
 }
- /*
+
 .text{
     clear: right;
     display: flex;
@@ -58,7 +58,7 @@ nav li button{
 .price{
     text-align: right;
 }
-.property{
+ /*.property{
     display: flex;
     margin: 20px;
     padding: 60px;
