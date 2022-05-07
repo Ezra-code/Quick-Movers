@@ -179,7 +179,7 @@ button{
     list-style: none;
     padding: 10px;
 }
-/*.listings h1{
+.listings h1{
     padding: 80px;
     margin: 30px;
     font-size: 60px;
@@ -228,7 +228,7 @@ th{
     margin: 20px;
 }
 
-.final{
+/*.final{
     background-color: #000;
     color: white;
 }
