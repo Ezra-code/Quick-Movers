@@ -58,7 +58,7 @@ nav li button{
 .price{
     text-align: right;
 }
- /*.property{
+ .property{
     display: flex;
     margin: 20px;
     padding: 60px;
@@ -124,7 +124,7 @@ button{
     border-radius: 0 20px 0 0;
     border: none;
 }
-.images{
+/*.images{
     padding-left: 85px;
 }
 .images img{
